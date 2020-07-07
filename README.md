@@ -1,4 +1,4 @@
-# dg-sport
+# Boilerplace Nuxt Wordpress
 
 ## Build Setup
 

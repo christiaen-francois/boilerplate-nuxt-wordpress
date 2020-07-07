@@ -2,7 +2,7 @@
   <div class="container">
     <div>
       <h1 class="title">
-        Accueil
+        {{ $t('greeting') }}
       </h1>
     </div>
   </div>

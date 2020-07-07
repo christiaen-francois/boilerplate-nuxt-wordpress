@@ -55,6 +55,24 @@ export default {
     'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    [
+      'nuxt-i18n',
+      {
+        locales: ['fr', 'de'],
+        defaultLocale: 'fr',
+        vueI18n: {
+          fallbackLocale: 'fr',
+          messages: {
+            fr: {
+              greeting: 'Hello world!'
+            },
+            de: {
+              greeting: '¡Hola mundo!'
+            }
+          }
+        }
+      }
+    ]
   ],
   /*
   ** Axios module configuration
